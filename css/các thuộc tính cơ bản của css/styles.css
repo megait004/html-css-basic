@@ -1,0 +1,14 @@
+h1 {
+    /* màu chữ */
+    color: green;
+    /* kiểu chữ */
+    font-style: italic;
+    /* phông chữ */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* chuyển đổi chữ hoa, thường */
+    text-transform: lowercase;
+    /* căn giữa */
+    text-align: center;
+    /* cỡ chữ */
+    font-size: 10px;
+}

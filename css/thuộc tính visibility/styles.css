@@ -1,0 +1,6 @@
+h1 {
+    visibility: hidden; /*ẩn element*/
+}
+h2 {
+    visibility: visible; /*hiện element*/
+}

@@ -1,0 +1,8 @@
+body {
+    background-image: url(./img/test.jpg);
+}
+h2 {
+    /* opacity làm trong suốt bao gồm cả nền của phần tử nếu để bằng 0 thì chỉ không nhìn thấy nhưng nó vẫn chiếm vị trí */
+    opacity: 20%;
+    background-color: aquamarine;
+}

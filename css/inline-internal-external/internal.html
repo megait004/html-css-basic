@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- kiểu nội bộ được  xác định phần tử <syle> , bên trong phần <head> của trang html-->
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>internal css</title>
+        <link rel="stylesheet" href="style.css" />
+        <style>
+            h1 {
+                color: red;
+                font-style: italic;
+            }
+            p {
+                color: black;
+            }
+            /* nếu thuộc tính giống nhau */
+            h2,
+            h3 {
+                color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="./inline.html">page1</a>
+        <a href="./internal.html">page2</a>
+        <a href="./external.html">page3</a>
+        <p>Con vịt</p>
+        <p>Con ngan</p>
+        <p>Con ngỗng</p>
+        <h1>Con mèo con</h1>
+        <h2>con chó</h2>
+        <h3>con sư tử</h3>
+    </body>
+</html>

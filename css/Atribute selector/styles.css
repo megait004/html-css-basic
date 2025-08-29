@@ -1,0 +1,27 @@
+[href] {
+    color: green;
+}
+/* [atribute=value] */
+a[target='_blank'] {
+    color: red;
+}
+/* [atribute~=value */
+[title~='pic'] {
+    color: gray;
+}
+/* [atribute*=value */
+[title*='conga'] {
+    color: yellowgreen;
+}
+/* atribute|=value */
+a[title|='bo'] {
+    color: coral;
+}
+/* atribute^=value */
+[title^='mon'] {
+    font-size: 50px;
+}
+/* atribute$=value */
+[title$='1'] {
+    font-size: 100px;
+}

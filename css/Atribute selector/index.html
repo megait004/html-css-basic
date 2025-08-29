@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Atribute selector</title>
+        <!-- nghĩa là khi bạn viết [herf] thì sẽ được hiểu là chọn tất cả thuộc tính có href -->
+        <link rel="stylesheet" href="styles.css" />
+        <!-- [atribute = value] -->
+
+        <!-- [atribute ~= value]  ví dụ [title~="pic"] => chọn tất cả các thuộc tính:title có chứa từ pic trong giá trị-->
+
+        <!-- [atribute *= value] cứ có từ đó là nó chọn ra không phải như "~=" phải chọn từ đơn lẻ cái này là chọn hết -->
+
+        <!-- atribute|=value có thể hiểu là 1 từ duy nhất , bắt đầu bằng 'bo', sau 'bo' phải được nối bằng dấu gạch'-' có hai trường hợp thoả mãn 1 là pic đơn lẻ còn hai là có gạch nối -->
+
+        <!-- atribute^=value  là miễn có từ 'con đứng đằng trước là nhận còn lại thì không nhận' -->
+
+        <!-- atribute$=value: là tìm tất cả các thuộc tính  kết thúc có giá trị như nào  -->
+    </head>
+    <body>
+        <a href="">anh nhớ em lắm vợ ơi huhuhu</a>
+        <p>anh yêu vợ yêu</p>
+        <!-- ví trụ cho atribute=value -->
+        <br />
+        <a href="" target="_blank">con vịt con</a>
+        <!-- ví dụ cho atribute~=value -->
+        <a href="" title="pic">con mèo </a>
+        <a href="" title="pic3">con khủng long</a>
+        <br />
+        <!-- atribute*=value -->
+        <a href="" title="conga">i miss her</a>
+        <a href="" title="conga1">i miss you</a>
+        <br />
+        <!-- atribute|=value -->
+        <a href="" title="bo-1-ca">con bò</a>
+        <a href="" title="bo3">con thỏ</a>
+        <!-- atribute^=value -->
+        <br />
+        <a href="" title="mon">yêu</a>
+        <a href="" title="mon-iu">nhớ</a>
+        <a href="" title="cute-mon">thương</a>
+        <!-- atribute$= -->
+        <br />
+        <a href="" title="a1">bóng đèn</a>
+        <a href="" title="c1">robot</a>
+        <a href="" title="c2">con quỷ</a>
+    </body>
+</html>

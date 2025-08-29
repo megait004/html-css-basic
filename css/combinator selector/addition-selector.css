@@ -1,0 +1,10 @@
+/* thẻ p đứng sát ngay sau thẻ div */
+div + h2 {
+    color: red;
+}
+h3.demo + h3 {
+    color: blue;
+}
+div ~ p {
+    color: green;
+}

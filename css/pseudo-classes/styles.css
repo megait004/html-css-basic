@@ -1,0 +1,32 @@
+/* thay đổi khi người dùng di chuột vào */
+p:hover {
+    color: green;
+    font-size: 30px;
+}
+#title:hover {
+    color: palevioletred;
+}
+.animal:hover {
+    color: blue;
+}
+/* thay đổi khi người dùng giữ chuột vào */
+.conmeo:active {
+    color: gray;
+}
+
+/* khi người dùng chưa click nó sẽ là màu chocolate */
+.dmm:link {
+    color: chocolate;
+}
+/* sau khi click nó sẽ chuyển sang màu aqua */
+.gg:visited {
+    color: aqua;
+}
+.element:empty {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+h2:target {
+    color: gray;
+}

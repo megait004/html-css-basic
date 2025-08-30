@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>pseudo class</title>
+        <link rel="stylesheet" href="styles.css" />
+        <!-- cú pháp chung:
+          ->selector:peseudo-class{ khối lệnh css}
+          -> các pseudo hay dùng: :hover , :active , :link , :visited , :empty , :target
+          -->
+    </head>
+    <body>
+        <img src="./image.png" width="500px" />
+        <p>con gà con</p>
+        <h1 id="title">yêu em</h1>
+        <p class="animal">con sư tử</p>
+        <!-- sử dụng :active -->
+        <a href="" class="conmeo">click vào em </a>
+        <br />
+        <!-- sử dụng :link  thẻ này cần lưu ý nếu mà link đó bạn đã click 1 lần rồi thì kể cả có reload lại trang thì trình duyệt nó vẫn lưu hoặc phải xoá cache hoặc gì đó đi -->
+        <a href="https://tuhoc.cc" class="dmm" target="_blank">chưa click</a>
+        <br />
+        <!-- sử dụng :visited  -->
+        <a href="https://chat.com" class="gg" target="_blank">truy cập chatgpt</a>
+        <!-- sử dụng lớp giả :empty chọn các thẻ div không có nội dung -->
+        <div class="element"></div>
+        <!-- sử dụng pseudo :target  chon thẻ có id = "home" khi trên url có hash tương ứng . ví dụ https://domain.com/#homne-->
+        <ul>
+            <li>
+                <a href="#mobai">chuyển đến mở bài</a>
+            </li>
+            <li>
+                <a href="#thanbai">chuyển đến thân bài</a>
+            </li>
+            <li>
+                <a href="#ketbai">chuyển đến kêt bài bài</a>
+            </li>
+        </ul>
+        <h2 id="mobai">mở bài</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quae incidunt iure asperiores nam? Est neque, reprehenderit impedit dolor itaque dolorem exercitationem sint assumenda accusamus error illo quam, ipsum molestiae!</p>
+        <h2 id="thanbai">thân bài</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse perferendis consequatur doloribus necessitatibus culpa magnam sit omnis deleniti adipisci suscipit molestias temporibus non exercitationem quisquam, inventore debitis iusto blanditiis laboriosam? Ratione debitis sed fugit commodi voluptatibus voluptate, exercitationem est tempora atque temporibus similique itaque hic rerum! Tempore dolore, architecto ullam vitae neque quo officia dicta quibusdam nulla perspiciatis reiciendis explicabo! Voluptatibus autem quo at, hic, et possimus laboriosam, numquam obcaecati quaerat aliquid corporis alias temporibus soluta rerum pariatur deleniti ut? Amet laudantium molestiae est officia quod omnis expedita consectetur optio! Sint, eligendi minima non aliquam optio quod veritatis porro cumque atque dicta et, minus eaque tempore reprehenderit harum labore quia consequuntur in perferendis dignissimos eum sed! Ad vero iure tempore! Placeat libero quae omnis modi quis assumenda aliquam explicabo necessitatibus iure quod magnam consequatur aut cupiditate praesentium quisquam, delectus hic nostrum porro corrupti? Perspiciatis minima doloremque repellat modi aperiam voluptatibus?</p>
+        <h2 id="ketbai">kết bài</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, animi! Veritatis sunt minima culpa laudantium quod expedita atque explicabo, aliquid quos nobis consequuntur in laborum officia ipsum sint vero dolorum. Eum culpa nemo vero, saepe possimus voluptate aut placeat sed, facilis, facere velit reiciendis perferendis iusto? Fugiat tempore quod eveniet. Est sint unde hic voluptatem nobis optio illum distinctio quod.</p>
+    </body>
+</html>

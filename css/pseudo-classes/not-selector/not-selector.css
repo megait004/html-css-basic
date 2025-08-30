@@ -1,0 +1,5 @@
+/* dùng not-selector bạn có thể chọn ra class hay id bất kì nào và loại bỏ thẻ nào cũng có thẻ áp dụng để loại bỏ các pseudo class khác  */
+/* ví dụ .top:not(:first-of-type) */
+.top:not(p) {
+    color: red;
+}

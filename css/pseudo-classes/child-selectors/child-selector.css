@@ -1,0 +1,22 @@
+/* chọn ra thẻ p con đầu tiên dùng :fist-child */
+/* p:first-child {
+    color: red;
+} */
+/* chọn ra thẻ p con cuối cùng trong class demo  :last-child*/
+/* .demo p:last-child {
+    color: #ffa500;
+} */
+/* chọn ra thẻ con thứ 2 tính từ trên xuống :nth-child*/
+/* .demo1 p:nth-child(2) {
+    color: green;
+} */
+/* chọn ra thẻ con thứ 2 tính từ cuối lên */
+p:nth-last-child(2) {
+    color: darkmagenta;
+    font-size: 30px;
+}
+/* chọn ra thẻ p  con duy nhất */
+p:only-child {
+    color: aqua;
+    font-size: 25px;
+}

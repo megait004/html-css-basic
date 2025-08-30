@@ -1,0 +1,20 @@
+/* universal selector thứ tự 5 */
+* {
+    color: red;
+}
+/* element selector thứ tự 4  */
+h1 {
+    color: blue;
+}
+/* class - pseudo class  thứ tự 3 */
+.demo {
+    color: green;
+}
+/* id class  thứ tự 2*/
+#theh1 {
+    color: pink;
+}
+h1 {
+    /* có important là mạnh nhất */
+    color: rebeccapurple !important;
+}

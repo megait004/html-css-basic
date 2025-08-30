@@ -1,0 +1,10 @@
+.box_parrent {
+    background-color: pink;
+    height: 250px;
+    margin-top: 120px;
+}
+.box_child {
+    background-color: blue;
+    width: 50%;
+    margin-top: 170px;
+}

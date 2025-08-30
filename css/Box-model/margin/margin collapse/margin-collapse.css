@@ -1,0 +1,23 @@
+/* .box {
+    width: 200px;
+    height: 200px;
+    border: 10px solid red;
+}
+.box1 {
+    margin-bottom: 50px;
+}
+.box2 {
+    margin-top: 70px;
+} */
+/* marin collaspe không bị tác động theo chiều ngang */
+.item {
+    background-color: yellow;
+    border: 2px solid red;
+}
+.item1 {
+    margin-right: 10px;
+}
+.item2 {
+    margin-left: 20px;
+}
+/* cách khắc phục collapse sủ dụng display:flex cho thẻ cha , flex-direction:column*/

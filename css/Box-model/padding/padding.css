@@ -1,0 +1,19 @@
+div {
+    width: 100px;
+    height: 100px;
+    color: yellow;
+    background-color: red;
+    /* dãn điều 4 hướng  */
+    /* padding: 20px; */
+    /* padding-top dãn bên trên  */
+    /* padding-bottom dãn bên dưới  */
+    /* padding-left dãn bên trái*/
+    /*padding-right dãn bên phải  */
+
+    /* trên dưới 20 , trái phải 30 */
+    /* padding: 20px 30px; */
+    /* trên: 20  , trái phải : 30px , dưới 40px
+    padding: 20px 30px 40px; */
+    /* trên :20 , phải  30 , dưới : 40 , trái 50  */
+    padding: 20px 30px 40px 50px;
+}

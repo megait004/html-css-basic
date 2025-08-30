@@ -1,0 +1,18 @@
+div {
+    width: 100px;
+    height: 100px;
+    color: yellow;
+    background-color: red;
+    /* border: 10px inset green; */
+    /* thêm viền phía trên */
+    /* border-top: 10px solid #000;
+    border-bottom: 10px dashed pink;
+    border-right: 10px inset blue; */
+    /* quy tắc viết ngắn giống padding */
+    /* border-width: 10px 20px 30px 50px;
+    border-style: solid;
+    border-color: blue; */
+    /* border-radius: 30px; */
+    /* bo góc trên bên trái */
+    border-top-left-radius: 30px;
+}

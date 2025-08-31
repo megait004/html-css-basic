@@ -1,0 +1,20 @@
+/* body {
+    background-color: pink;
+    height: 400px;
+} */
+/* .box {
+    background-color: blue;
+    height: 50%;
+} */
+/* .box-child {
+    background-color: red; */
+/* phần  trăm là lấy kích thước so với thẻ cha của nó */
+/* width: 50%; */
+/* } */
+/* chú ý thẻ body là 1 thẻ đặc biệt nó sẽ có dan sao cho phù hợp để chứa các khối bên trong nó nếu mà thẻ body không set độ dài rộng thì mặc định nó sẽ co dãn phù hợp với thẻ con bên trong nó */
+.parent {
+    /* font-size: 60px; */
+}
+.line1 {
+    font-size: 40%;
+}

@@ -1,0 +1,50 @@
+/* trường hợp 1:thẻ cha và thẻ con không có font-size => lấy theo font-size root(html) */
+/* .thangcon {
+    width: 10em;
+    height: 10em;
+    background-color: violet;
+} */
+/* trường hợp 2 : vì font-size có kế thừa nên ở thằng cha mà có set font-size , thằng con nó sẽ kế thừa lại mặc dù thằng con không set , khi đó ở thằng con ta dùng em thì nó sẽ lấy từ thằng cha nhân lên */
+/* .thangcha {
+    font-size: 30px;
+    background-color: green;
+}
+.thangcon {
+    width: 10em;
+    height: 10em;
+    background-color: red;
+} */
+/* trường hợp 3 : cả thẻ cha và thẻ con đều đặt font-size thì nó ưu tiên font-size hiện tại của chính nó */
+/* .thangcha {
+    font-size: 30px;
+    background-color: green;
+}
+.thangcon {
+    font-size: 10px;
+    width: 10em;
+    height: 10em;
+    background-color: red;
+} */
+/* trường hợp 4 khi thằng cha có font-size tương đối thì nó sẽ lấy font-size từ thẻ gốc của trình duyệt là 16px*/
+/* .thangcha {
+    font-size: 2em;
+    background-color: aqua;
+}
+.thangcon {
+    width: 10em;
+    height: 10em;
+    background-color: pink;
+} */
+/* ưu tiên 1:font-size chính của phần tử đó
+   ưu tiên 2: phụ thuộc vào font-size của thẻ cha
+   ưu tiên 3:phụ thuộc vào font-size của root(html) */
+
+.thangcha {
+    font-size: 10px;
+}
+.thangcon {
+    font-size: 2em;
+    width: 2em;
+    height: 2em;
+    background-color: violet;
+}

@@ -1,0 +1,11 @@
+h2 {
+    font-size: 30px;
+    width: 120px;
+    height: 80px;
+    background-color: yellow;
+}
+p {
+    /* độ dài tương đối nó đang lấy 50% của thẻ cha */
+    width: 50%;
+    background-color: blue;
+}

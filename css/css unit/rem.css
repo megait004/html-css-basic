@@ -1,0 +1,29 @@
+.cha {
+    /* nếu dùng rem thì nó sẽ không láy thằng font-size của thằng cha */
+    font-size: 10px;
+}
+/* html {
+    font-size: 40px;
+}
+.con {
+    width: 2rem;
+    height: 2rem;
+    background-color: gold;
+    border: 2rem solid red;
+} */
+/* 1rem = 16px ta quy đỏi 1 rem = 10px sẽ dễ tính hơn
+ 10/16*100=62.5% */
+html {
+    font-size: 62.5%;
+}
+h1 {
+    font-size: 4rem;
+}
+p {
+    font-size: 2.3rem;
+}
+.convit {
+    width: 20rem;
+    height: 15rem;
+    background-color: aqua;
+}

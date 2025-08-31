@@ -5,6 +5,7 @@ a {
     background-color: rgb(210, 140, 151);
     border-radius: 999px;
     color: green;
+    /* dùng thêm display :inline-block để có thể set được các thuộc tính bị chặn */
     display: inline-block;
     text-align: center;
     padding: 8px 16px;

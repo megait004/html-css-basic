@@ -1,0 +1,73 @@
+div {
+    /* đọ dày của font chữ */
+    font-weight: 900;
+    /* chiều cao của dòng hiểu là chiều cao dòng bằng 1.6 lần font-size */
+    font-size: 1.2rem;
+    line-height: 1.6;
+    /* khoảng cách giữa các ký tự */
+    letter-spacing: 20px;
+    /* tảng giảm khoảng cách giữa các từ */
+    word-spacing: 2px;
+    /* căn giàn đều hai bên */
+    text-align: justify;
+    /* căn trái-mặc định */
+    text-align: left;
+    /* căn phải */
+    text-align: right;
+    /* căn giữa */
+    text-align: center;
+}
+#nhoem {
+    /* text-align chỉ căn text văn bản so với box chứa nó */
+    text-align: left;
+    /* thuộc tính thụt lề */
+    text-indent: 40px;
+    text-indent: -40px;
+}
+/* text-decoration */
+a {
+    /* bỏ gạch chân */
+    text-decoration: none;
+    /* thêm gạch chân */
+    text-decoration: underline;
+    /* thêm gạch ngang */
+    text-decoration: line-through;
+    /* gạch trên đầu */
+    text-decoration: overline;
+    /* có thể định kiểu của dấu gạch, màu sắc ,kích thước */
+    text-decoration: underline dotted blue 5px;
+}
+p {
+    /* viết hoa chữ cái đầu */
+    text-transform: capitalize;
+    /* viết thường toàn bộ text */
+    text-transform: lowercase;
+    /* viết hoa toàn bộ */
+    text-transform: uppercase;
+}
+
+p {
+    /* trạng thái mặc định */
+    white-space: normal;
+    /* không xuống dòng kể cả chạm tới lề */
+    white-space: nowrap;
+    /* giữ nguyên giống thẻ pre */
+    white-space: pre;
+    /* giữ nguyên xuống dòng , nhưng loại bỏ dấu cách thừa */
+    white-space: pre-line;
+    white-space: pre-wrap;
+}
+strong {
+    background-color: yellow;
+    /* để bẻ xuống hàng */
+    word-break: break-all;
+}
+/* tesxt-shadow làm bóng đổ cho text  truyền vào 4 đối số
+ đối số đầu tiên trục nằm ngang từ hướng đi từ trái sang phải
+ đói số thứ hai trục dọc hướng đi từ trên xuống dưới
+ đối số thứ 3 độ nhoè
+ và còn lại là màu sắc */
+h5 {
+    /* tra cứu thêm text shadow css generator */
+    text-shadow: 3px 0px 0px green;
+}

@@ -1,0 +1,12 @@
+h1 {
+    /* color: rgb(87, 120, 111); */
+    /* 0-255 mỗi 1 kênh màu  */
+    /* color: rgb(124 122 111); */
+    /* kênh rgba  thể hiện độ trong suốt*/
+    /* color: rgba(255, 111, 123, 1); */
+    /* hệ màu hex  hai số đầu là của red hai số giữa của green hai số cuối của blue*/
+    /* color: #2d2555; */
+
+    /* nếu các kênh màu có 2 giá trị giống nhau ta bỏ bớt 1 giá trị đi được  */
+    /* color: #f0f; */
+}

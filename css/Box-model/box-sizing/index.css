@@ -1,0 +1,14 @@
+.box {
+    width: 100px;
+    height: 150px;
+    padding: 50px;
+    border: 10px solid red;
+    box-sizing: content-box;
+}
+/* dùng box-sizing: border-box thì khi nhập kích thước bao nhiêu nó giữ nguyên là kích thước đó không bị phình to ra bởi padding hay border khi ta thay đổi  */
+.box2 {
+    width: 160px;
+    height: 210px;
+    padding: 50px;
+    box-sizing: border-box;
+}

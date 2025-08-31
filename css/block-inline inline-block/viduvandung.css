@@ -1,0 +1,17 @@
+a {
+    /* thẻ a là inline */
+    text-decoration: none;
+    width: 100px;
+    background-color: rgb(210, 140, 151);
+    border-radius: 999px;
+    color: green;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 16px;
+}
+a:hover {
+    background-color: black;
+}
+body {
+    background-color: aqua;
+}

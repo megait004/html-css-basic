@@ -1,0 +1,16 @@
+ul {
+    /* xoá dấu chấm của thẻ ul */
+    list-style-type: none;
+}
+.fa-house,
+.fa-solid {
+    color: rgb(37, 37, 233);
+    margin-right: 4px;
+}
+.fa-facebook {
+    color: blue;
+}
+.fa-youtube {
+    color: #ff0033;
+    font-size: 100px;
+}

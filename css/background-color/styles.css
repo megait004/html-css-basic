@@ -1,0 +1,12 @@
+.bgc {
+    /* kích thước phần tử được tính từ border đến padding đổ vào trong , và nền sẽ được đổ vào kích thước phần tử  */
+    background-color: aquamarine;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    border: 10px dotted red;
+    margin: 45px;
+}
+body {
+    background-color: pink;
+}

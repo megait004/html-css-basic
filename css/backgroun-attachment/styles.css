@@ -1,0 +1,17 @@
+.tt {
+    height: 460px;
+    background-image: url(https://avatars.githubusercontent.com/u/103838138?v=4);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.test_local {
+    margin-top: 40px;
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-image: url(https://avatars.githubusercontent.com/u/103838138?v=4);
+    background-repeat: no-repeat;
+    /* ảnh sẽ bị cuốn theo cuộn con */
+    background-attachment: local;
+    overflow: auto;
+}

@@ -1,0 +1,40 @@
+.concoc {
+    width: 300px;
+    height: 200px;
+    background-color: yellow;
+    /* thuộc tính này để scroll là có thanh cuộn  */
+    overflow: auto;
+}
+.concoc1 {
+    /* dùng cái này  thì khi nội dung bên trong kéo kịch nó sẽ không bị kéo theo */
+    overscroll-behavior: contain;
+    width: 500px;
+    height: 500px;
+    overflow: scroll;
+}
+.concoc2 {
+    width: 200px;
+    height: 300px;
+    border: solid;
+    overflow: auto;
+}
+/* custom css scroll bar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #820909;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

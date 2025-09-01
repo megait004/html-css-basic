@@ -1,0 +1,15 @@
+.linear {
+    height: 100px;
+    margin-bottom: 10px;
+}
+/* tham số thứ nhất là direction : hướng của màu  , tham số thứ 2 là màu 1-stop , tham số thứ 3 là màu 2-stop.
+stop ở đây là cái danh giới*/
+/* nếu tham số thứ nhất không nhập gì thì mặc định nó sẽ chuyển màu từ trên xuống dưới */
+/* .liner1 {
+    background-image: linear-gradient(to left, red, green);
+} */
+.liner2 {
+    /* phần trăm điền ở kia nghia là từ màu đỏ nó giữ 30% , còn màu xanh nó giữ 40% không chuyển  màu */
+    background-image: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+/* tìm kiếm công cụ chuyển màu css gradient.io */

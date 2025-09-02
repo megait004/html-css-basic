@@ -1,0 +1,16 @@
+.clip-path {
+    width: 200px;
+    height: 200px;
+    background: url(./ava.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* clip-path: circle(90px); */
+    /* dịch tâm đường tròn theo x , y */
+    /* clip-path: circle(40% at 50% 40%); */
+    /* cắt hình chữ nhật */
+    clip-path: inset(20px);
+    /* thêm phần bo góc  khai báo thêm keyword "round"*/
+    clip-path: inset(20px round 15px);
+    /* cắt hình đa giác */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+}

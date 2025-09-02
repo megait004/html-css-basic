@@ -1,0 +1,12 @@
+body {
+    background: url(./conga.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.filter {
+    margin-top: 50px;
+    height: 1000px;
+    background-color: rgba(255, 0, 0, 0.597);
+    backdrop-filter: blur();
+    -webkit-backdrop-filter: blur(55px);
+}

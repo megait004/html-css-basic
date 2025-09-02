@@ -1,0 +1,23 @@
+.clip {
+    width: 200px;
+    height: 200px;
+    background-image: url(./1.PNG);
+    border: 50px dotted red;
+    padding: 50px;
+    /* mặc định nó ở trạng thái này đổ từ border vào padding đến content */
+    background-clip: border-box;
+    /* thì nó sẽ đổ từ padding vào trong */
+    background-clip: padding-box;
+    /*chỉ đổ phần content  */
+    background-clip: content-box;
+}
+/* kiểm tra xem hai thuộc tính đó trình duyệt có hỗ trỡ không nếu có thì nó nhận màu */
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+    .text-hailai {
+        background-color: aqua;
+        background-image: linear-gradient(90deg, #3f2b96 0%, #a8c0ff 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+}

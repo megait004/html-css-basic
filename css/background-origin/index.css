@@ -1,0 +1,14 @@
+.origin {
+    width: 200px;
+    height: 200px;
+    background-image: url(./1.PNG);
+    border: 50px dotted red;
+    padding: 50px;
+    /* mặc định đổ từ border vào trong */
+    /* background-clip: border-box; */
+    /* gốc của ảnh mặc định ở trạng thái padding-box */
+    background-origin: padding-box;
+    background-origin: border-box;
+    background-origin: content-box;
+    /* chú ý : thằng clip thì là quy định ảnh đổ từ đâu , còn thằng origin là quy định cái gốc ảnh nằm ở đâu */
+}

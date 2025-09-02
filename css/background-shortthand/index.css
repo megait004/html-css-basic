@@ -1,0 +1,27 @@
+.shorthand {
+    width: 200px;
+    height: 200px;
+    border: 40px dotted green;
+    background-color: cyan;
+    background-image: url(./1.PNG);
+    /* set vị trí bắt đầu đặt hình ảnh */
+    /* background-position: top right; */
+    /* background-position ;đơn vị % */
+    /* background-position: 0 100%; */
+    /* background-positon:đơn vị tuyệt đối */
+    /* background-position: 0 100px; */
+    /* ảnh sẽ vừa khung hình , nếu khung chứa không khớp ảnh của nó , thì nó sẽ thừa và lặp lại */
+    /* background-size: contain; */
+    /* background-size:cover dãn bức ảnh ra phần thiếu sẽ cắt bớt đi */
+    /* background-size: cover; */
+    /* background-repeat: repeat lặp lại ảnh , còn cái nữa là no-repeat không lặp ảnh */
+    /* background-repeat: repeat; */
+    /* cú pháp gõ tắt tất cả các thuộc tính background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit;*/
+    background: red;
+    background: red url(./1.PNG);
+    background: red url(./1.PNG) left;
+    background: red url(./1.PNG) left / content;
+    background: red url(./1.PNG) left / cover no-repeat;
+    background: red url(./1.PNG) left / cover no-repeat padding-box;
+    background: red url(./1.PNG) left / cover no-repeat padding-box padding-box fixed;
+}

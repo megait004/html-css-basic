@@ -1,0 +1,14 @@
+.nav {
+    height: 100px;
+    background-color: antiquewhite;
+    /* dùng hàm calc tính toán với width thì khi co vào và dãn ra thì nó không bị thay đỏi cái khối mà ta đang tính
+     */
+    width: calc(100% - 100px);
+    margin: 0 auto;
+}
+.main_content {
+    background-color: blue;
+    /* vh:vieport height phần nhìn thấy của trình duyệt */
+    height: calc(100vh - 100px);
+    /* dùng chia cái số hàng nào có đơn vị phải ở trước  */
+}

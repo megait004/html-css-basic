@@ -1,0 +1,32 @@
+/* chọn ra dòng đâu tiên trong thẻ p , lưu ý thuộc tính này không áp dụng được với thẻ display:inline , chỉ áp dụng được với thẻ block và inline-block */
+p::first-line {
+    color: red;
+}
+/* thẻ span có display:inline nên nó không tác dụng được  */
+span::first-line {
+    color: blue;
+}
+
+/* first-letter tác động lên chữ cái đầu tiên của thẻ p */
+p::first-letter {
+    font-size: 2rem;
+}
+/* ::selection chọn vùng đang được bôi đen */
+p::selection {
+    background-color: brown;
+}
+/* ::marker chọn các điểm đánh dấu của phần tử li */
+li::marker {
+    color: greenyellow;
+    font-size: 50px;
+}
+/* ::before thêm phần tử vào đằng trước */
+p::before {
+    color: gold;
+    content: 'Em ở đằng trước nè';
+}
+/* ::after thêm phần tử vào đằng sau */
+p::after {
+    content: 'em ở đằng sau nè';
+    color: blue;
+}

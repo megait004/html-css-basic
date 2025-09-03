@@ -1,0 +1,15 @@
+.box-img {
+    max-width: 300px;
+    /* set thuộc tính này sẽ không lấy được link ảnh */
+    pointer-events: none;
+}
+a {
+    /* không tương tác được khi thêm thuộc tính này */
+    pointer-events: none;
+    padding: 5px;
+    background-color: red;
+    /* để có thể thêm padding cho nó  */
+    display: inline-block;
+    /* bỏ dấu gạch thẻ a */
+    text-decoration: none;
+}

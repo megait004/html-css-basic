@@ -1,0 +1,11 @@
+.demo-img {
+    max-width: 70%;
+    /* mẹo căn giữa */
+    display: block;
+    margin: 0 auto;
+}
+div {
+    background-color: aqua;
+    max-width: 700px;
+    margin: 0 auto;
+}

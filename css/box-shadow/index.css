@@ -1,0 +1,11 @@
+.box-shadow {
+    /* box-shadow có hai đối số bắt buộc là x , y , đối số thứ 3 là đồ nhoè , đối số thứ 4 là bán kính nó trải rộng ra  */
+    width: 150px;
+    height: 150px;
+    background-color: plum;
+    box-shadow: 60px -16px 5px 10px green;
+    /* muốn đổ lên trên nền đối tượng dùng từ khoá "inset" */
+    box-shadow: inset 100px -16px 6px yellow;
+    /* đổ nhiều bóng */
+    box-shadow: 160px 0px red, 0px 160px blue, 160px 160px;
+}

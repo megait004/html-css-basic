@@ -1,0 +1,18 @@
+.fa-envelope {
+    color: darkturquoise;
+    font-size: 100px;
+}
+.thangbo {
+    /* chỉ chiếm nội dung bên trong  */
+    display: inline-block;
+    /* giới hạn theo nọi dung */
+    width: fit-content;
+    position: relative;
+}
+.fa-circle {
+    position: absolute;
+    font-size: 30px;
+    right: 0;
+    top: 0;
+    color: blue;
+}

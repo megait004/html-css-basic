@@ -1,0 +1,14 @@
+.fa-telegram {
+    font-size: 30px;
+    color: #3390ec;
+    /* đưa phần tử đó ra khỏi luồng ban đầu */
+    position: fixed;
+    left: 1000px;
+    top: 800px;
+}
+.thangto {
+    width: 15rem;
+    background-color: rgb(228, 177, 177);
+    position: relative;
+    margin: 0 auto;
+}

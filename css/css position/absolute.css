@@ -1,0 +1,32 @@
+.content {
+    color: aliceblue;
+    background-color: yellow;
+    width: 400px;
+    margin-left: 100px;
+    /* nếu không có thẻ cha có position là relative thì nó sẽ lấy gốc trên bên trái của webpage
+    còn khi thẻ cha có relative nó định vị về thằng cha của nó */
+    /* position: relative; */
+}
+.header {
+    background-color: pink;
+    /* thằng khối hai nó chạy về thằng ông khi nó thấy thằng ông có relative  */
+    position: relative;
+}
+.lock {
+    width: 100px;
+    height: 100px;
+}
+.loc1 {
+    background-color: red;
+}
+.loc2 {
+    /* lôi hẳn thằng này ra khỏi khối ban đầu thằng 3 được đặt lên vị trí 2 */
+    position: absolute;
+    /* vì nó bằng độ rộng nên nó che mất thằng khối 3 ở phía dưới */
+    background-color: aqua;
+    left: 0;
+    top: 0;
+}
+.loc3 {
+    background-color: green;
+}

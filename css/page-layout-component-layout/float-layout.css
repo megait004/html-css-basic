@@ -1,0 +1,20 @@
+img {
+    width: 500px;
+    /* float-layout:right: ảnh trôi sang phải nó dàn trang ; */
+    float: right;
+}
+
+/* .anh2 {
+    width: 400px;
+    float: left;
+    clear: right;
+} */
+/* chú ý khi sử dụng thuộc tính float:left ,right , imgage bị trôi khỏi luồng bình thương , các phần tử còn lại sẽ bao quanh phần tử image */
+/* nếu mà muốn phần tử không bị chèn ép để bao quanh hình , ta cần sử dụng
++ clear:left(hướng trái)
++ clear:right(hướng phải)
++ clear:both(cả hai hướng) */
+/* lớp giả chỉ định cho phần tử  con cuối cùng của phần tử cha */
+p:last-child {
+    clear: right;
+}

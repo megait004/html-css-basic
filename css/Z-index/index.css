@@ -1,0 +1,27 @@
+.bz1 {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    color: #fff;
+}
+.bz2 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    z-index: 2;
+}
+.bz3 {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    /* cái nào có z-index cao hơn sẽ đứng lên trước kiểu như là đè lên trước ấy nhưng mà chỉ áp dụng khi tất cả các khối cùng kiểu positon và không có thuộc tính "position:static" */
+    z-index: 3;
+}
+.bz {
+    display: flex;
+    /* căn giữa theo trục ngang */
+    justify-content: center;
+    /* căn giữa theo trục dọc */
+    align-items: center;
+    position: absolute;
+}

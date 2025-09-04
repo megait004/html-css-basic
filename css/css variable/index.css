@@ -1,0 +1,49 @@
+/* thay vì phải sửa 3 chỗ ta sẽ dùng tên biến khai báo trong thẻ root */
+:root {
+    /* đặt tên biến dùng hai dấu '--' */
+    --box-height: 100px;
+    --box-color: red;
+}
+/* .var1 {
+    height: 110px;
+    background-color: green;
+    margin-bottom: 10px;
+}
+.var2 {
+    height: 110px;
+    background-color: green;
+    margin-bottom: 10px;
+}
+.var3 {
+    height: 110px;
+    background-color: green;
+    margin-bottom: 10px;
+} */
+/* dùng biến chỉ cần thay màu trên root là đổi cả 3 khối  */
+.var1 {
+    height: var(--box-height);
+    background-color: var(--box-color);
+    margin-bottom: 10px;
+}
+.var2 {
+    height: var(--box-height);
+    background-color: var(--box-color);
+    margin-bottom: 10px;
+}
+.var3 {
+    height: var(--box-height);
+    background-color: var(--box-color);
+    margin-bottom: 10px;
+}
+/* khai báo biến bên trong 1 class thì chỉ sử dụng được cho các thằng con ở trong class đó thôi  */
+.detail {
+    --p_font-size: 100px;
+    /* font-size: var(--p_font-size); */
+}
+.detail span {
+    font-size: var(--p_font-size);
+}
+/* giá trị backup của biến trong trường hợp sai biến hoặc k tìm thấy thì nó sẽ dùng giá trị dự phòng*/
+.var4 {
+    background-color: var(--box-color, green);
+}

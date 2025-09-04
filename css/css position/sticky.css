@@ -1,0 +1,17 @@
+.dot {
+    /* chuyẻn thẻ h2 thành list-item */
+    display: list-item;
+    list-style-type: disc;
+    margin-left: 20px;
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+}
+.cont {
+    height: 300px;
+    overflow: auto;
+    background-color: aqua;
+    /* Để position: sticky hoạt động, cần thỏa các điều kiện:
+
+Phần tử sticky (.dot) phải nằm trong một container có chiều cao cố định + overflow (thường là overflow: auto hoặc scroll). */
+}

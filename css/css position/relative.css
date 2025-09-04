@@ -1,0 +1,26 @@
+.po {
+    width: 100px;
+    height: 100px;
+    color: white;
+    /* căn giữa ở các khối */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.po1 {
+    background-color: red;
+    /* mặc định */
+    /* position: static; */
+    /* position:relative định vị so với vị trí ban đầu của nó 1 khoảng x */
+    position: relative;
+    /* cách lề trái 50px */
+    left: 50px;
+    top: 10px;
+    bottom: 20px;
+}
+.po2 {
+    background-color: green;
+}
+.po3 {
+    background-color: aqua;
+}

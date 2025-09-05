@@ -1,10 +1,22 @@
 .container {
+    height: 400px;
     /* dùng warp nó sẽ lấy đúng kích thước độ rộng width đã xét và trên 1 hàng khi không đủ độ rộng cho từng phần tử nó sẽ tự động xuống hàng , mặc định nó sẽ set no warp */
     flex-wrap: wrap;
     /* đảo phần tử  */
-    flex-wrap: wrap-reverse;
+    /* flex-wrap: wrap-reverse; */
     display: flex;
     background-color: cyan;
+    /* mặc định align-content : stretch */
+    /* đề là flex-start tât cả item đẩy lên trên */
+    align-content: flex-start;
+    /* đẩy xuống dưới */
+    align-content: flex-end;
+    /* đẩy ra giữa */
+    align-content: center;
+    /* tạo xung quanh khoảng trống theo trục cross */
+    align-content: space-around;
+    /* nó sẽ dàn hết ra khối cha theo trục cross hai cạnh trên dưới sẽ dính vào chwú không tạo khoảng cách ra như thằng around */
+    align-content: space-between;
 }
 .wrap {
     border: 1px solid black;

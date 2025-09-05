@@ -1,0 +1,12 @@
+.container {
+    /* rem lấy từ thẻ gốc root mặc định 16px */
+    font-size: 1.5rem;
+    background-color: fuchsia;
+    /* chỉ chưa vừa nội dung thì dùng inline-flex */
+    display: inline-flex;
+    /* các khối con cách nhau 1 khoảng 40px */
+    gap: 40px;
+}
+.con {
+    background-color: green;
+}

@@ -1,0 +1,26 @@
+.container {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    /* mặc định dùng thằng strectch này nó sẽ đổ đầy các khối box con sao cho nó full chiều cao của thằng cha */
+    /* align-items: stretch; */
+    /* dùng thằng flex-end thì nó sẽ chạy xuống chân của thằng cha */
+    /* align-items: flex-end; */
+    /* flex-start chạy lên trên đầu của thằng cha */
+    /* align-items: flex-start; */
+    /* align-item:center căn giữa thằng cha */
+    /* align-items: center; */
+    /* dù kích thức phần tử con riêng có như thế nào thì chân của phần tử thành 1 đường thẳng */
+    align-items: baseline;
+    background-color: red;
+    height: 400px;
+}
+.alight {
+    background-color: aqua;
+}
+.alight1 {
+    height: 100px;
+}
+.alight2 {
+    height: 300px;
+}

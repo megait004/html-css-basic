@@ -1,0 +1,13 @@
+.container {
+    /* dùng warp nó sẽ lấy đúng kích thước độ rộng width đã xét và trên 1 hàng khi không đủ độ rộng cho từng phần tử nó sẽ tự động xuống hàng , mặc định nó sẽ set no warp */
+    flex-wrap: wrap;
+    /* đảo phần tử  */
+    flex-wrap: wrap-reverse;
+    display: flex;
+    background-color: cyan;
+}
+.wrap {
+    border: 1px solid black;
+    width: 30%;
+    background-color: green;
+}

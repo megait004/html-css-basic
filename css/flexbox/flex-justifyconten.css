@@ -1,0 +1,21 @@
+.container {
+    font-size: 4rem;
+    display: flex;
+    /* để cho các thằng con nằm trong khối cha nhảy ra giữa  */
+    /* và hiện tại đang theo trục ngang main axis */
+    /* thuộc tính này thuộc nhóm container nên phải dùng trong thẻ cha */
+    /* justify-content: center; */
+    /* các khối đẩy sang sát lề bên phải */
+    /* justify-content: end; */
+    /* các khối đẩy sang sát lề bên trái */
+    /* justify-self: start; */
+    /* giữa các item con sẽ có khoảng space và nó được dàn ra */
+    /* justify-content: space-between; */
+    /* cũng là được dàn ra nhưng không sát hai lề như between */
+    /* justify-content: space-around; */
+    /* cũng được dàn đều ra nhưng giữa các khối khoảng cách trắng giống nhau và không sát hai bên trang */
+    justify-content: space-evenly;
+}
+.flex {
+    background-color: gold;
+}

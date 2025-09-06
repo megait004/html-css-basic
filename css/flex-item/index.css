@@ -1,0 +1,16 @@
+.container {
+    height: 150px;
+    display: flex;
+    background-color: pink;
+    /* code trong class container và theo trục cross */
+    align-items: flex-start;
+}
+.ox {
+    background-color: chartreuse;
+    border: 1px solid black;
+}
+.ox1,
+.ox2 {
+    /* tác động riêng rẽ từng phần tử không dùng được trong thằng cha  */
+    align-self: center;
+}

@@ -1,0 +1,13 @@
+.container {
+    height: 150px;
+    background-color: pink;
+    display: flex;
+}
+.conc {
+    background-color: blue;
+    border: 1px solid black;
+    /* flex-grow: 1; */
+}
+.conc1 {
+    flex-grow: 1;
+}

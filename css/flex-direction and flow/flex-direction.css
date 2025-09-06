@@ -1,0 +1,19 @@
+.direction {
+    background-color: red;
+    border: 2px solid black;
+}
+.container {
+    display: flex;
+    background-color: blue;
+    /* mặc định hướng của main là row lúc này hướng từ start -> end */
+    /* flex-direction: row; */
+    /* nếu dùng row-reverse thì main start ở bên phải , main end ở bên trái , các item sẽ bắt đầu từ main start*/
+    /* flex-direction: row-reverse; */
+    flex-direction: column;
+    /* align-item theo trục cross */
+    /* justify-content ăn theo trục main */
+    /* lúc này đổi trục rồi nên dùng thằng này không thay đổi gì  */
+    justify-content: center;
+    /* dùng thằng align-items này sẽ kéo được nó ra giữa */
+    align-items: center;
+}
